@@ -41,4 +41,17 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="address">Address</string>
+    <string name="city">City</string>
+    <string name="state">State</string>
+    <string name="business_name">Business Name</string>
+    <string name="toll_free">Toll Free</string>
+    <string name="website">Website</string>
+    <string name="pan_number">Pan Number</string>
+    <string name="gst_number">GST Number</string>
+    <string name="welcome">Welcome!</string>
 </resources>
