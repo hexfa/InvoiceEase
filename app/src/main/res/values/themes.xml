@@ -1,0 +1,147 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Spendistry" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/mainBlue</item>
+        <item name="colorPrimaryVariant">#03045E</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="bottomNavigationStyle">@style/Widget.App.BottomNavigationView</item>
+        <item name="android:windowBackground">@color/windowBlue</item>
+        <item name="android:navigationBarColor">@color/windowBlue</item>
+        <item name="popupMenuBackground">@color/windowBlue</item>
+        <item name="android:actionMenuTextColor">@color/mainBlue</item>
+        <item name="android:textSelectHandleWindowStyle">@style/Widget.App.TextSelectHandleWindow
+        </item>
+        <item name="cardBackgroundColor">@color/cardBlue</item>
+    </style>
+
+    <style name="Widget.App.TextSelectHandleWindow" parent="">
+        <item name="colorAccent">@color/mainBlue</item>
+        <item name="android:colorAccent">@color/mainBlue</item>
+    </style>
+
+    <style name="cardViewTheme" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/cardBlue</item>
+    </style>
+
+    <style name="dashBoardCard" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearanceOverlay_card_custom_corners</item>
+        <item name="cardBackgroundColor">@color/mainBlue</item>
+
+    </style>
+
+    <style name="popupMenuBackground" parent="@style/Theme.Spendistry.PopupOverlay">
+        <item name="titleEnabled">false</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay_card_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">45dp</item>
+        <item name="cornerSizeBottomLeft">45dp</item>
+        <item name="cardElevation">16dp</item>
+        <item name="android:ambientShadowAlpha">1</item>
+        <item name="android:spotShadowAlpha">1</item>
+    </style>
+
+    <style name="editPageCard" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/edit_card_custom_corners</item>
+        <item name="cardBackgroundColor">@color/mainBlue</item>
+    </style>
+
+
+    <style name="edit_card_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">0dp</item>
+        <item name="cornerSizeTopLeft">0dp</item>
+        <item name="cornerSizeBottomRight">36dp</item>
+        <item name="cornerSizeBottomLeft">36dp</item>
+        <item name="cardElevation">16dp</item>
+    </style>
+
+    <style name="loginCard" parent="@style/Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/login_card_custom_corners</item>
+        <item name="cardBackgroundColor">@color/cardBlue</item>
+    </style>
+
+    <style name="login_card_custom_corners" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">60dp</item>
+        <item name="cornerSizeTopLeft">60dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cardElevation">16dp</item>
+        <item name="android:ambientShadowAlpha">1</item>
+        <item name="android:spotShadowAlpha">1</item>
+    </style>
+
+
+    <style name="ActionBarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">#000</item>
+        <item name="backgroundColor">@color/material_white</item>
+        <item name="colorAccent">#fff</item>
+        <item name="colorControlNormal">#fff</item>
+        <item name="colorControlActivated">#fff</item>
+        <item name="colorControlHighlight">#fff</item>
+        <item name="android:backgroundTint">#E7F5F8</item>
+    </style>
+
+
+    <style name="Widget.App.BottomNavigationView" parent="Widget.Material3.BottomNavigationView">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.BottomNavigationView</item>
+    </style>
+
+    <!--    <style name="ThemeOverlay.App.BottomNavigationView" parent="">-->
+    <!--        <item name="colorSurface">@color/design_default_color_background</item>-->
+    <!--        <item name="colorOnSurfaceVariant">@color/black</item>-->
+    <!--        <item name="colorOnBackground">@color/mainBlue</item>-->
+    <!--        <item name="backgroundTint">@color/mainBlue</item>-->
+
+    <!--    </style>-->
+
+    <style name="ThemeOverlay.App.BottomNavigationView" parent="">
+        <item name="colorSurface">@color/cardBlue</item>
+        <item name="colorOnSurfaceVariant">@color/windowBlue</item>
+    </style>
+
+    <style name="Widget.Material3.BottomNavigationView.ActiveIndicator" parent="">
+        <item name="android:width">@dimen/m3_bottom_nav_item_active_indicator_width</item>
+        <item name="android:height">@dimen/m3_bottom_nav_item_active_indicator_height</item>
+        <item name="marginHorizontal">@dimen/m3_bottom_nav_item_active_indicator_margin_horizontal
+        </item>
+        <item name="shapeAppearance">
+            @style/ShapeAppearance.Material3.NavigationBarView.ActiveIndicator
+        </item>
+        <item name="android:color">?attr/colorSecondaryContainer</item>
+    </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/mainBlue</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor">@color/mainBlue</item>
+        <item name="android:navigationBarColor">@color/mainBlue</item>
+    </style>
+
+    <style name="Theme.Spendistry.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Spendistry.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Spendistry.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

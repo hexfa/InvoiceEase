@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">InvoiceApp</string>
+    <string name="API">AIzaSyDj1NK-n1WqK5xz7d8THp8n4ViC5Z519sA</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log In</string>
+    <string name="register">register?</string>
+    <string name="next">Next</string>
+    <string name="done">Done</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="don_t_have_an_account_register">
+     <font color="#6D6767">Don\'t have an account? </font><font color="#03045E">Register</font>
+    </string>
+    <string name="monthly_exp">Monthly Expense: </string>
+    <string name="yearly_exp">Total Expense: </string>
+    <string name="issued_invoices_n180">Issued Invoices:</string>
+    <string name="didnt_receive_otp"><font color="#6D6767">Didn\'t receive OTP? </font><font color="#003045E">Resend</font></string>
+    <string name="email_sent">Email sent!</string>
+    <string name="some_thing_went_wrong">Something went wrong!</string>
+    <string name="context_title"><font color="#03045E"><b>Select The Action</b></font></string>
+    <string name="delete"><font color="#03045E">"DELETE"</font></string>
+    <string name="item"><u><b>Item</b></u></string>
+    <string name="qnt"><u><b>Qnt</b></u></string>
+    <string name="price"><u><b>Price</b></u></string>
+    <string name="total"><u><b>Total</b></u></string>
+
+    <string-array name="payment_mode">
+        <item>Cash</item>
+        <item>Card</item>
+        <item>Cheque</item>
+        <item>UPI</item>
+    </string-array>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
