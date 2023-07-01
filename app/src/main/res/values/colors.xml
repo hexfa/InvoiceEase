@@ -24,6 +24,7 @@
     <color name="red">#FF1100</color>
     <color name="cardGreen">#00ADB5</color>
     <color name="otherBlue">#90E0EF</color>
+    <color name="zxing_transparent">#00000000</color>
 
 
 </resources>
