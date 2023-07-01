@@ -76,8 +76,8 @@ public class LoginActivity extends AppCompatActivity {
                                         editor.putString("token", token);
                                         editor.apply();
                                         //
-                                       /* Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
-                                        startActivity(intent);*/
+                                        Intent intent = new Intent(LoginActivity.this, DashboardActivity.class);
+                                        startActivity(intent);
                                     }
                                 }
                             }
