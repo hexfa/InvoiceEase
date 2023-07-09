@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Spendistry" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Theme.InvoiceEase" parent="Theme.Material3.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/mainBlue</item>
         <item name="colorPrimaryVariant">#03045E</item>

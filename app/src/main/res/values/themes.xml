@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Spendistry" parent="Theme.Material3.Light.NoActionBar">
+    <style name="Theme.InvoiceEase" parent="Theme.Material3.Light.NoActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/mainBlue</item>
         <item name="colorPrimaryVariant">#03045E</item>
@@ -38,7 +38,7 @@
 
     </style>
 
-    <style name="popupMenuBackground" parent="@style/Theme.Spendistry.PopupOverlay">
+    <style name="popupMenuBackground" parent="@style/Theme.InvoiceEase.PopupOverlay">
         <item name="titleEnabled">false</item>
     </style>
 
@@ -136,12 +136,12 @@
         <item name="android:navigationBarColor">@color/mainBlue</item>
     </style>
 
-    <style name="Theme.Spendistry.NoActionBar">
+    <style name="Theme.InvoiceEase.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Spendistry.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.InvoiceEase.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
-    <style name="Theme.Spendistry.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.InvoiceEase.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

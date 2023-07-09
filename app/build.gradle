@@ -85,4 +85,7 @@ dependencies {
     //for Rounded Images
     implementation 'com.makeramen:roundedimageview:2.3.0'
 
+    //badge
+    implementation 'io.github.nikartm:image-support:2.0.0'
+
 }

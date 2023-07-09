@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_edit"
+            android:icon="@drawable/edit"
+            android:title="Edit Profile" />
+        <item
+            android:id="@+id/nav_all_invoice"
+            android:icon="@drawable/ic_invoice"
+            android:title="All Invoices" />
+        <item
+            android:id="@+id/reported_nav"
+            android:icon="@drawable/reuturn_black"
+            android:title="Reported Invoices" />
+        <item
+            android:id="@+id/returned_nav"
+            android:icon="@drawable/ic_return"
+            android:title="Returned Invoices" />
+    </group>
+
+    <item
+        android:id="@+id/logout_nav"
+        android:icon="@drawable/logout_nav"
+        android:title="Logout" />
+
+</menu>
